@@ -1,0 +1,12 @@
+{
+  "name": "Screenshot Extension by Adeel ",
+  "version": "2.0",
+  "description": "Take a screenshot of the current tab",
+  "permissions": ["activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Take a screenshot",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}

@@ -1,0 +1,25 @@
+/* Style for button element */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: "ADEEL";
+  display: block; /* add this line to make the button a block element */
+  margin: 0 auto; /* add this line to center the button horizontally */
+}
+
+/* Style for button element on hover */
+button:hover {
+  background-color: #0062cc;
+}
+
+/* Style for button element on active/focus state */
+button:active,
+button:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: #005cbf;
+}
